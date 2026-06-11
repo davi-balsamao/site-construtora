@@ -1,0 +1,6 @@
+.claude/
+
+# Fotos originais do WhatsApp (com duplicatas) ficam só locais.
+# O site publica apenas as 30 únicas em img/galeria/.
+/img/*.jpeg
+!/img/galeria/

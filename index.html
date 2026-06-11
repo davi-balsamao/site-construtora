@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Pra você, Ana</title>
+
+  <!-- Fontes: Great Vibes (manuscrita, destaques) + Cormorant Infant (corpo/títulos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Tela de abertura ===== -->
+  <div id="opening" class="opening">
+    <div class="opening-inner">
+      <p class="opening-hi">Ana,</p>
+      <h1 class="opening-title">um presentinho pra você</h1>
+      <button id="open-btn" class="open-btn" type="button" aria-label="Abrir o presente">
+        toque para abrir
+        <span class="open-heart" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 21s-7.5-4.9-10-9.2C.3 8.5 1.7 4.7 5.2 4.1 7.4 3.7 9.1 4.9 10 6.2c.4.6.7 1 .9 1.4l1.1-.0c.2-.4.5-.8.9-1.4.9-1.3 2.6-2.5 4.8-2.1 3.5.6 4.9 4.4 3.2 7.7C19.5 16.1 12 21 12 21Z"/></svg>
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ===== Botão de tema ===== -->
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Alternar tema claro e escuro">
+    <svg class="icon-sun" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0-13a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1Zm0 14a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1ZM4 12a1 1 0 0 1-1 1H1a1 1 0 1 1 0-2h2a1 1 0 0 1 1 1Zm19 0a1 1 0 0 1-1 1h-2a1 1 0 1 1 0-2h2a1 1 0 0 1 1 1ZM5.6 5.6a1 1 0 0 1 1.4 0l1.4 1.4a1 1 0 1 1-1.4 1.4L5.6 7a1 1 0 0 1 0-1.4Zm10 10a1 1 0 0 1 1.4 0l1.4 1.4a1 1 0 0 1-1.4 1.4l-1.4-1.4a1 1 0 0 1 0-1.4Zm2.8-10a1 1 0 0 1 0 1.4L17 8.4A1 1 0 0 1 15.6 7l1.4-1.4a1 1 0 0 1 1.4 0Zm-10 10a1 1 0 0 1 0 1.4L7 18.4A1 1 0 0 1 5.6 17L7 15.6a1 1 0 0 1 1.4 0Z"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+  </button>
+
+  <main id="site" class="site">
+
+    <!-- ===== 1. Hero ===== -->
+    <section class="hero" id="hero">
+      <div id="hearts-stage" class="hearts-stage" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">11 de junho · quase um ano</p>
+        <h1 class="hero-title">Pra você, <span class="script">Ana</span></h1>
+        <p class="hero-sub">quase um ano deixando tudo mais leve e mais bonito</p>
+        <span class="scroll-cue" aria-hidden="true">role para baixo ↓</span>
+      </div>
+    </section>
+
+    <!-- ===== 2. Vida mais leve ===== -->
+    <section class="text-section" id="leve">
+      <div class="text-block reveal">
+        <p class="kicker">a verdade mais simples</p>
+        <h2>Você faz minha vida<br /><span class="script big">ficar mais leve</span></h2>
+        <p class="lead">
+          Tem gente que entra na vida da gente e tudo fica mais fácil de respirar.
+          É exatamente isso que você faz comigo — sem nem perceber, todo dia.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== 3. Humor ===== -->
+    <section class="text-section alt" id="humor">
+      <div class="text-block reveal">
+        <p class="kicker">e tem isso aqui também</p>
+        <h2>Nunca conheci alguém que<br />acha tão engraçado<br /><span class="script">ser engraçada</span></h2>
+        <p class="lead">
+          É inacreditável como você ri <em>depois</em> de soltar a piada — aquele
+          clássico <span class="quote">“ai, sou tão engraçada KKKKKKKK”</span> — e
+          sabe de uma coisa? Você é mesmo. E eu rio toda vez, sempre.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== 4. Galeria ===== -->
+    <section class="gallery-section" id="galeria">
+      <div class="section-head reveal">
+        <p class="kicker">um pedacinho do nosso</p>
+        <h2>nós dois, <span class="script">em fotos</span></h2>
+      </div>
+      <div id="masonry" class="masonry" role="list" aria-label="Galeria de fotos do casal"></div>
+    </section>
+
+    <!-- ===== 5. Admirador / gratidão ===== -->
+    <section class="text-section" id="gratidao">
+      <div class="text-block reveal">
+        <p class="kicker">de coração</p>
+        <h2>Sou um <span class="script">eterno admirador</span> seu</h2>
+        <p class="lead">
+          E vou sempre torcer pelas suas conquistas, de pertinho, com orgulho.
+          Sou muito grato por estar com você — obrigado por ser meiga, carinhosa,
+          compreensiva e tão companheira comigo.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== 6. Fecho ===== -->
+    <section class="closing" id="fecho">
+      <div class="closing-inner reveal">
+        <p class="closing-small">é isso, lindeza</p>
+        <h2 class="closing-title script">Feliz dia dos namorados,<br />meu amor</h2>
+        <span class="closing-heart" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="40" height="40"><path fill="currentColor" d="M12 21s-7.5-4.9-10-9.2C.3 8.5 1.7 4.7 5.2 4.1 7.4 3.7 9.1 4.9 10 6.2c.4.6.7 1 .9 1.4l1.1-.0c.2-.4.5-.8.9-1.4.9-1.3 2.6-2.5 4.8-2.1 3.5.6 4.9 4.4 3.2 7.7C19.5 16.1 12 21 12 21Z"/></svg>
+        </span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Bibliotecas via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+
+  <!-- Scripts do site -->
+  <script src="js/gallery.js"></script>
+  <script src="js/hearts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
